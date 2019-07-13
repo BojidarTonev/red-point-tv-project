@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: main
 title:  "Welcome to red-point-tv!"
 date:   2019-07-13 16:57:06 +0300
 ---
