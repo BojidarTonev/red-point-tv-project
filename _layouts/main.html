@@ -4,14 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/site.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
     <title>{{site.title}}</title>
 </head>
 <body>
-    <h1>tv-red-point-heading</h1>
-    {{content}}
-    <footer>
-        All rights reserved &copy; Bojobachkadosta
-    </footer>
+    <div class="site">
+        <header class="site-header">
+
+            {% if page.home == true %}
+                <h1 class="site-title">
+                    <a href="{{ site.baseurl }}/red-point-tv-project.html/">{{site.title}}</a>
+                </h1>
+            {% else %}
+                <p class="site-title">
+                    <a href="{{ site.baseurl }}/red-point-tv-project.html/">{{site.title}}</a>
+                </p>
+            {% endif %}
+
+            <nav class="site-nav">
+                <ul>
+                    {% for page in site.pages %}
+                        {% if page.title %}
+                            <li>
+                                <i class="{{ page.icon-class}}"></i><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor%}
+                </ul>
+            </nav>
+
+        </header>
+
+        <main class="site-main">
+
+            {% if page.title %}
+            <h1>{{ page.title }}</h1>
+            {% endif %}
+
+            {{content}}
+
+        </main>
+
+        <aside class="site-sidebar">
+
+        </aside>
+
+        <footer>
+            All rights reserved &copy; Bojobachkadosta
+        </footer>
+    </div>
 </body>
 </html>
