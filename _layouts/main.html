@@ -21,17 +21,7 @@
                 </p>
             {% endif %}
 
-            <nav class="site-nav">
-                <ul>
-                    {% for page in site.pages %}
-                        {% if page.title %}
-                            <li>
-                                <i class="{{ page.icon-class}}"></i><a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor%}
-                </ul>
-            </nav>
+            {% include navigation.html %}
 
         </header>
 

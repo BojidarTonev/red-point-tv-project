@@ -20,18 +20,20 @@
 .site-nav i {
     font-size: 32px;
     padding: 0 0.5em;
-    color: #a11b1b;
+    color: black;
 }
 
 .site-nav a {
+    display: block;
     color: black;
     border-radius: 0.3em;
-    padding: 0.3em;
+    padding: 0.3em 0.4em 0.3em 0.1em;
     background: gray;
 }
 
 .site-nav a:hover {
     background: #a11b1b;
+
 }
 
 
