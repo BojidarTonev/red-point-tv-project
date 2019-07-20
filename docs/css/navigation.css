@@ -13,29 +13,27 @@
 }
 
 .site-nav li {
-    list-style: none;
-    margin: 0 3.5em;
+    list-style: none outside;
+    display: block;
+    padding: 0 3.5em;
 }
 
 .site-nav i {
-    font-size: 32px;
+    font-size: 25px;
     padding: 0 0.5em;
     color: black;
 }
 
 .site-nav a {
-    display: block;
     color: black;
     border-radius: 0.3em;
-    padding: 0.3em 0.4em 0.3em 0.1em;
+    padding: 0.3em 0.6em 0.3em 0.6em;
     background: gray;
 }
 
 .site-nav a:hover {
     background: #a11b1b;
-
+    color: white;
 }
-
-
 
 

@@ -2,3 +2,7 @@
     max-width: var(--layout-main-width, 70em);
     margin: 0 auto;
 }
+
+@media (min-width: 1024px) {
+
+}
