@@ -1,0 +1,39 @@
+.site-nav {
+    background: #3b3c40;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.site-nav > ul {
+    display: flex;
+    justify-content: center;
+    padding: 0.6em;
+    align-self: flex-end;
+}
+
+.site-nav li {
+    list-style: none outside;
+    display: block;
+    padding: 0 3.5em;
+}
+
+.site-nav i {
+    font-size: 25px;
+    padding: 0 0.5em;
+    color: black;
+}
+
+.site-nav a {
+    color: black;
+    border-radius: 0.3em;
+    padding: 0.3em 0.6em 0.3em 0.6em;
+    background: gray;
+}
+
+.site-nav a:hover {
+    background: #a11b1b;
+    color: white;
+}
+
+

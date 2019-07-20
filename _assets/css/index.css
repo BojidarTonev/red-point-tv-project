@@ -1,0 +1,10 @@
+.index-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-header h2 {
+    max-width: 20ch;
+    margin: 0 auto;
+}
