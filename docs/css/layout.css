@@ -1,6 +1,22 @@
+body {
+    background: black;
+    color: #a39d87;
+}
+
 .site {
     max-width: var(--layout-main-width, 70em);
     margin: 0 auto;
+}
+
+.site-main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-main-title h1 {
+    padding: 0 1em;
+    border-bottom: 3px solid #a39d87;
 }
 
 @media (min-width: 1024px) {

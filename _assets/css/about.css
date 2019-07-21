@@ -1,0 +1,99 @@
+.about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header p {
+    max-width: 65ch;
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+.about-artist {
+    background: #b01b0b;
+    color: black;
+    margin: 1.5em 0;
+}
+
+.artist-main {
+    display: flex;
+}
+
+.artist-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.about-artist img {
+    height: 17em;
+    width: 15em;
+    background: black;
+    margin: 0 2em;
+    border-radius: 0.4em;
+    border: 5px solid black;
+}
+
+.artist-content {
+    max-width: 75ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.artist-content p {
+    max-width: 80ch;
+}
+
+.artist-info-items {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.artist-info-items li {
+    display: flex;
+    list-style: none;
+    margin: 0 3em;
+    padding-right: 4em;
+}
+
+.artist-info-items li:not(:last-child){
+    border-right: 3px solid black;
+}
+
+.artist-info-items i {
+    font-size: 2.5em;
+}
+
+.artsit-links-items {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3em;
+}
+
+.artsit-links-items li {
+    list-style: none;
+    margin: 0 0.8em;
+    padding: 0.5em;
+}
+
+.artist-links-items a:hover {
+    background: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    padding: 0;
+}
