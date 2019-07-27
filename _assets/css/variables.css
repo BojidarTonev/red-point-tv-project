@@ -1,8 +1,46 @@
 :root {
+    /*layout variables*/
     --font-size-body: 14px;
     --font-size-body-larger: 16px;
     --font-size-body-big: 18px;
     --font-size-body-huge: 20px;
     
     --layout-main-width: 70em;
+
+
+    /*contact page variables*/
+    --contact-header-max-characters: 65ch;
+
+    --contact-main-min-width: 50em;
+
+    --contact-form-padding: 3em;
+    --contact-form-background: rgb(0, 0, 0, 0.7);
+    --contact-form-min-width: 56em;
+    --contact-form-fieldset-background: black;
+    --contact-form-fieldset-padding: 3em;
+    --contact-form-input-background: #807171;
+    --contact-form-input-min-width: 22em;
+    --contact-form-input-min-height: 2em;
+    --contact-form-legend-font-size: 2.3em;
+    --contact-description-background-color: black;
+
+    --contact-form-button-background: black;
+    --contact-form-button-min-height: 3em;
+    --contact-form-button-width: 60%;
+    --contact-form-button-text-color: #910205;
+    --contact-form-button-font-size: 0.8em;
+    --contact-form-fast-icon-links-font-size: 2em;
+
+    /*about page variables*/
+    --about-description-max-characters: 65ch;
+    --about-description-background-color: black;
+
+    --about-artist-background-color: rgb(89,85,85, 0.7);
+    --about-artist-text-color: black;
+    --about-artist-image-height: 17em;
+    --about-artist-image-width: 15em;
+    --about-artist-content-max-characters: 80ch;
+
+    --artsit-links-items-color: black;
+    --artsit-links-items-background: gray;
 }

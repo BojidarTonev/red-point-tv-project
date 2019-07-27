@@ -1,8 +1,8 @@
 .site-nav {
-    background: #3b3c40;
     position: absolute;
     width: 100%;
     bottom: 0;
+    background: black;
 }
 
 .site-nav > ul {
@@ -32,8 +32,8 @@
 }
 
 .site-nav a:hover {
-    background: #a11b1b;
-    color: white;
+    background: black;
+    color: #8A0509;
 }
 
 

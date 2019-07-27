@@ -1,0 +1,15 @@
+.site-footer {
+    border-top: 1.7em solid black;
+    height: 9em;
+    background: url('../../images/footer-image.gif') center center;
+    margin-top: 5em;
+}
+
+.footer-section span{
+    margin-left: 6em;
+    background-color: black;
+}
+
+.footer-section {
+    margin-top: 1em;
+}
