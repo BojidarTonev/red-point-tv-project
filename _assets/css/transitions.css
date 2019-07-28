@@ -84,7 +84,7 @@ body.loaded .site-nav {
 button[type='submit']:hover {
     background: #8A0509;
     color: black;
-    border-color: black;
+    border: 3px solid black;
     transition: background 0.5s ease-in-out, color 0.3s ease-in-out, border-color 0.5s ease-in-out;
 }
 
@@ -92,4 +92,15 @@ button[type='submit']:hover {
     background: black;
     color: #910205;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.fast-icon-links a:hover {
+    color: #910205;
+    transition: color 0.5s ease-in-out;
+}
+
+.event a:hover {
+    color: black;
+    border: 0.3em solid #910205;
+    transition: border-color 1s ease-in-out;
 }
