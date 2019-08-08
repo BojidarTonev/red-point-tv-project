@@ -63,3 +63,35 @@ hr {
 .event .slick-slide{
     margin: 0 3em;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .site-main {
+        margin: 0 3em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gallery-header {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-main ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gallery-main ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        grid-gap: 1em;
+    }
+}

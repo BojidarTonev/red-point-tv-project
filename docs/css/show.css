@@ -4,3 +4,41 @@ hr {
     background: #910205;
     border: 0.13em solid black;
 }
+
+@media screen and (max-width: 1024px) {
+    .videos {
+        max-width: 45em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .videos {
+        max-width: 40em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .videos {
+        max-width: 30em;
+        margin: 2em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    iframe {
+        max-width: 22em;
+    }
+    .videos li {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    iframe {
+        max-width: 18em;
+    }
+    .show-header h2 {
+        vertical-align: middle;
+        text-align: center;
+    }
+}
