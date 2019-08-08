@@ -1,0 +1,65 @@
+.content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    max-width: var(--about-description-max-characters, 65ch);
+    vertical-align: middle; 
+    text-align: center; 
+    background: var(--about-description-background-color, black);
+}
+
+hr {
+    margin: 2em 0;
+    height: 0.4em;
+    background: #910205;
+    border: 0.13em solid black;
+}
+
+.upcoming-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.upcoming-events-title h2{
+    background: black;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #910205; 
+}
+
+.events-description{
+    background: black;
+    max-width: 70ch;
+}
+
+.events-slider{
+    width: 70%;
+    margin: 2em 3em 0em 3em; 
+}
+
+.event {
+    min-height: 10em;
+    min-width: 10em;
+}
+
+.event img {
+    height: 15em;
+    width: 15em;
+}
+
+.event a {
+    display: block;
+    height: 15em;
+    width: 15em;
+}
+
+.event .slick-slide{
+    margin: 0 3em;
+}

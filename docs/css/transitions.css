@@ -104,3 +104,39 @@ button[type='submit']:hover {
     border: 0.3em solid #910205;
     transition: border-color 1s ease-in-out;
 }
+
+.gallery-main li > a:hover strong{
+    transform: translateX(-2em);
+    transition: color 0.5s ease-in-out, transform 0.3s ease-in;
+}
+
+.site-title a:hover {
+    color: #8A0509;
+    border-bottom: 0.3em solid black;
+
+    transform: translateY(0.5em);
+    transition: transform 0.4s ease-in, color 0.5s ease-in-out, border-bottom 0.5s ease-out;
+}
+
+/*Burger transitions*/
+
+.burger div {
+    transition: all 0.5s ease;
+}
+
+.nav-active {
+    transform: translateX(0%) !important; 
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-9px, 5px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-9px, -5px);
+}
+

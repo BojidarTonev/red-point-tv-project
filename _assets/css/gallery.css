@@ -1,0 +1,117 @@
+.gallery-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    max-width: var(--about-description-max-characters, 65ch);
+    vertical-align: middle; 
+    text-align: center; 
+    background: var(--about-description-background-color, black);
+    margin-bottom: 2em;
+}
+
+.gallery-main a,
+.gallery-main span,
+.gallery-main img {
+    display: block;
+}
+
+.gallery-main img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-main ul {
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+}
+
+.gallery-header h2{
+    background: black;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #910205; 
+}
+
+.gallery-main li {
+    display: flex;
+    list-style: none outside;
+    position: relative;
+    overflow: hidden;
+    grid-column: span 2;
+    border: 0.3em solid black;
+
+}
+
+.gallery-main li:before {
+    display: block;
+    content: '';
+    padding-top: 50%;   
+}
+
+.gallery-main li.portrait {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.gallery-main li.portrait a {
+    display: flex;
+}
+
+.gallery-main li.small img,
+.gallery-main li.portrait img {
+    width: auto;
+    height: 100%;
+}
+
+.gallery-main li.portrait:before {
+    padding-top: 200%;  
+}
+
+.gallery-main li.small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.gallery-main li.small:before {
+    margin-top: 100%;
+}
+
+.gallery-main li > a {
+    position: absolute;
+    top: 0; left: 0; right:0; bottom: 0;
+   
+}
+
+.gallery-main li > a:hover img {
+    position: relative;
+    z-index: 1;
+}
+
+.gallery-main li > a:hover:before {
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.gallery-main li > a:hover strong{
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    z-index: 3;
+    color: #910205;
+}
+
+
+
+

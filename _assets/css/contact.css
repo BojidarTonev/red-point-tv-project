@@ -115,7 +115,6 @@ button[type='submit'] {
     padding: 1em 3em;
     font-size: var(--contact-form-button-font-size, 8em);
     margin: 0 auto;
-    font-family: 'Righteous', cursive;
 
 }
 

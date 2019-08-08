@@ -6,18 +6,24 @@ icon-class: fas fa-tv
 aside: false
 ---
 
-<section>
-    <header>
-        <h2>Our show</h2>
+<section class="show-section">
+    <header class="content-header">
+        <span class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellendus, quibusdam, eum veritatis
+            consequatur adipisci nihil natus dolorem accusamus vero, quae modi! Culpa optio eveniet asperiores
+            consequatur fuga! Suscipit, sunt?
+        </span>
     </header>
-    
-    <div class="content">
+    <hr>
+    <main class="show-main">
         <ul>
-            {% for post in site.posts %}
-                <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
+            <!--{% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}-->
+
+            {% include show-episodes.html %}
         </ul>
-    </div>
+    </main>
 </section>

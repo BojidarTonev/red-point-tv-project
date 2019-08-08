@@ -3,6 +3,7 @@ body {
     color: #a39d87;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .site {
@@ -33,5 +34,5 @@ body {
 }
 
 @media (min-width: 1024px) {
-
+    
 }
