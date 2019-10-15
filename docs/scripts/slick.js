@@ -25,7 +25,7 @@ $(document).ready(function(){
                     slidesToScroll: 1,
                     slidesToShow: 1
                 }
-            },
+            }
         ]
     });
 });

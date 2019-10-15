@@ -75,23 +75,16 @@ hr {
     .gallery-header {
         text-align: center;
     }
+
+    .gallery-main ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .gallery-main ul{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 1em;
-    }
+
 }
 
 @media screen and (max-width: 320px) {
-    .gallery-main ul{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-
-        grid-gap: 1em;
-    }
+    
 }
